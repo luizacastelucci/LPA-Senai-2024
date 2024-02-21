@@ -13,12 +13,12 @@ programa
 
 		faca
 		{	
-			escreva("Informe sua idade (valores acima de 14): ")
+			escreva("Informe sua idade (valores acima de 14): \n")
 			leia(idade)
 		}
-		enquanto (idade > 14)
+		enquanto (idade < 14)
 
-		escreva("Idade informada inserida corretamente.\n")
+		escreva("Idade inserida corretamente.\n")
 
 
 	}
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 290; 
+ * @POSICAO-CURSOR = 279; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
